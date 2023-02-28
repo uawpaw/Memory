@@ -83,7 +83,7 @@ function checkMatch(){
 
     }
 
-    if (cardsChosen[0] == cardsChosen[1]){
+   else if (cardsChosen[0] == cardsChosen[1]){
         alert('you found a match')
         cards[optionOneId].setAttribute('src', 'Images/white.jpg')
         cards[optionTwoId].setAttribute('src', 'Images/white.jpg')
