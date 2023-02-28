@@ -24,6 +24,30 @@ const cardArray =[
         img: 'Images/woof.jpg'
     },
     {
+        name: 'chomp',
+        img: 'Images/chomp.jpg'
+    },
+    {
+        name: 'duck',
+        img: 'Images/duck.jpg'
+    },
+    {
+        name: 'snow',
+        img: 'Images/snow.jpg'
+    },
+    {
+        name: 'tiny',
+        img: 'Images/tiny.jpg'
+    },
+    {
+        name: 'tooth',
+        img: 'Images/tooth.jpg'
+    },
+    {
+        name: 'yawn',
+        img: 'Images/yawn.jpg'
+    },
+    {
         name: 'boobs',
         img: 'Images/boobs.jpg'
     },
@@ -46,7 +70,32 @@ const cardArray =[
     {
         name: 'woof',
         img: 'Images/woof.jpg'
+    },
+    {
+        name: 'chomp',
+        img: 'Images/chomp.jpg'
+    },
+    {
+        name: 'duck',
+        img: 'Images/duck.jpg'
+    },
+    {
+        name: 'snow',
+        img: 'Images/snow.jpg'
+    },
+    {
+        name: 'tiny',
+        img: 'Images/tiny.jpg'
+    },
+    {
+        name: 'tooth',
+        img: 'Images/tooth.jpg'
+    },
+    {
+        name: 'yawn',
+        img: 'Images/yawn.jpg'
     }
+
 ]
 
 cardArray.sort(() => 0.5- Math.random())
