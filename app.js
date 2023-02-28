@@ -87,8 +87,8 @@ function checkMatch(){
         alert('you found a match')
         cards[optionOneId].setAttribute('src', 'Images/white.jpg')
         cards[optionTwoId].setAttribute('src', 'Images/white.jpg')
-        cards[optionOneId].removeEventListener('clicks',flipCard)
-        cards[optionTwoId].removeEventListener('clicks',flipCard)
+        cards[optionOneId].removeEventListener('click',flipCard)
+        cards[optionTwoId].removeEventListener('click',flipCard)
 
         cardsWon.push(cardsChosen)
 
